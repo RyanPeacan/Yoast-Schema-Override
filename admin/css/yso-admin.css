@@ -1,0 +1,177 @@
+/* ==========================================================================
+   Yoast Schema Override — Admin Metabox Styles
+   ========================================================================== */
+
+/* Container */
+.yso-metabox {
+	font-size: 13px;
+	line-height: 1.6;
+}
+
+/* Intro description */
+.yso-description {
+	color: #646970;
+	margin: 0 0 14px;
+}
+
+/* Main override toggle */
+.yso-field-toggle {
+	margin-bottom: 0;
+}
+
+.yso-toggle-label {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.yso-toggle-label input[type="checkbox"] {
+	width: 18px;
+	height: 18px;
+	margin: 0;
+	cursor: pointer;
+}
+
+.yso-toggle-text {
+	color: #1d2327;
+}
+
+/* Divider */
+.yso-divider {
+	border: 0;
+	border-top: 1px solid #dcdcde;
+	margin: 16px 0;
+}
+
+/* Override panel */
+.yso-override-panel {
+	padding-top: 4px;
+}
+
+/* Mode selector */
+.yso-field-mode .yso-field-label {
+	font-weight: 600;
+	color: #1d2327;
+	margin: 0 0 10px;
+}
+
+.yso-radio-label {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	margin-bottom: 8px;
+	cursor: pointer;
+}
+
+.yso-radio-label input[type="radio"] {
+	margin-top: 2px;
+	flex-shrink: 0;
+}
+
+/* Field group */
+.yso-field-group {
+	margin-top: 16px;
+	padding: 16px;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+}
+
+.yso-group-title {
+	margin: 0 0 14px;
+	font-size: 13px;
+	font-weight: 600;
+	color: #1d2327;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+}
+
+/* Individual field */
+.yso-field {
+	margin-bottom: 16px;
+}
+
+.yso-field:last-child {
+	margin-bottom: 0;
+}
+
+.yso-label {
+	display: block;
+	font-weight: 600;
+	color: #1d2327;
+	margin-bottom: 5px;
+}
+
+.yso-input,
+.yso-textarea,
+.yso-select {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.yso-select {
+	max-width: 360px;
+}
+
+.yso-textarea {
+	resize: vertical;
+	min-height: 72px;
+}
+
+/* Help text */
+.yso-field-help {
+	color: #646970;
+	font-size: 12px;
+	margin: 5px 0 0;
+	font-style: italic;
+}
+
+/* Image row */
+.yso-image-row {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	flex-wrap: wrap;
+}
+
+.yso-image-input {
+	flex: 1;
+	min-width: 200px;
+}
+
+.yso-image-preview {
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
+	border-radius: 3px;
+	border: 1px solid #dcdcde;
+}
+
+/* Advanced JSON textarea */
+.yso-json-textarea {
+	font-family: Consolas, Monaco, "Courier New", monospace;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #1d2327;
+	background: #fff;
+}
+
+/* Date inputs */
+input[type="datetime-local"].yso-input {
+	max-width: 260px;
+}
+
+/* Notice for JSON errors (shown via JS) */
+.yso-json-error-notice {
+	display: none;
+	background: #fcf0f1;
+	border-left: 4px solid #d63638;
+	padding: 10px 14px;
+	margin-top: 8px;
+	border-radius: 0 3px 3px 0;
+	color: #d63638;
+	font-weight: 600;
+}
