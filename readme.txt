@@ -1,5 +1,5 @@
 === Yoast Schema Override ===
-Contributors: yourname
+Contributors: rpeacan
 Requires at least: 6.5
 Requires Plugins:  wordpress-seo
 Tested up to: 6.8
